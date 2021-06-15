@@ -18,12 +18,20 @@ Route::get('/', function () {
 
     //ddd($post);
 
-    
-
     return view('welcome', [
         'posts' => $posts
 
     ]);
+
+});
+
+Route::get('/projecten', function () {
+    $projecten = DB::table('posts')->where('published', 1)->get();
+
+    return view('projecten', [
+        'projecten' => $projecten
+    ]);
+
 });
 
 Route::get('/posts/{post}', function ($slug) {

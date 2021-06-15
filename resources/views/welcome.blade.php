@@ -14,11 +14,17 @@
 </head>
 
 <body>
+    <nav>
+        <a href="/testadmin">Admin</a><br>
+    </nav>
+
     <div class="flex-center position-ref full-height">
 
         <div class="content">
             <div class="title m-b-md">
-                <img src="https://www.het-bureau.com/wp-content/themes/hetbureau/assets/img/Landingpage-logo-liggend.jpg" alt="Het Bureau">
+                <a href="/projecten"><img
+                        src="https://www.het-bureau.com/wp-content/themes/hetbureau/assets/img/Landingpage-logo-liggend.jpg"
+                        alt="Het Bureau"></a>
             </div>
 
             <div>
@@ -27,7 +33,7 @@
                     <?= $data->title ?>
                     <a href="/posts/<?= $data->title ?>">Bekijk het project</a><br><br>
                 @endforeach
-               
+
             </div>
 
         </div>
