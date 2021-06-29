@@ -75,6 +75,12 @@
             <div id="grid-item-placeholder-31" class="grid-placeholder"></div>
         </div>
 
+        @foreach ($files as $file)
+            {{$file->name}}
+        @endforeach
+
+        <a href="login">AdminPanel</a>
+
         <div class="mobile-layout">
 
             <nav class="navbar navbar-expand-lg bg-white">

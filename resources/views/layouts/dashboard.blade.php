@@ -26,14 +26,14 @@
                 <nav class="main-menu">
                     <ul>
                         <li>
-                            <a href="/dashboard">
+                            <a href="dashboard">
                                 <i class="fa fa-home fa-2x"></i>
                                 <span class="nav-text">Dashboard</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="/project">
+                            <a href="project">
                                 <i class="fa fa-music	 fa-2x"></i>
                                 <span class="nav-text">
                                     Project
@@ -51,7 +51,7 @@
 
                         </li>
                         <li>
-                            <a href="/order">
+                            <a href="order">
                                 <i class="fa fa-table fa-2x"></i>
                                 <span class="nav-text">
                                     Order
@@ -60,7 +60,7 @@
                         </li>
 
                         <li>
-                            <a href="/event">
+                            <a href="event">
                                 <i class="fa fa-table fa-2x"></i>
                                 <span class="nav-text">
                                     Timetable

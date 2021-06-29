@@ -5,7 +5,7 @@
 <div class="container-fluid">
     <div class="row ">
         <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-            <a href="/project" class="placeholder"><span class="icon-newsletter"></span>
+            <a href="project" class="placeholder"><span class="icon-newsletter"></span>
                 <p>project</p>
             </a>
         </div>
