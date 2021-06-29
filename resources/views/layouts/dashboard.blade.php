@@ -6,7 +6,7 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dashboard --</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="{{ url()->asset('/css/app.css') }}">
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
@@ -19,10 +19,10 @@
 
 </head>
 
-<body class="p-0 is-dashboard">
+<body class="p-0 m-0 is-dashboard">
     <div class="container-fluid">
         <div class="row ">
-            <div class="col-12 col-md-1">
+            <div class="col-12 col-md-1 p-0">
                 <nav class="main-menu">
                     <ul>
                         <li>
@@ -69,14 +69,14 @@
                         </li>
 
 
-                        {{--        user acc name--}}
-                        {{--        <li>--}}
-                        {{--            <a href="">--}}
-                        {{--                <span class="next-text">--}}
-                        {{--                    {{ Auth::user()->name }}--}}
-                        {{--                </span>--}}
-                        {{--            </a>--}}
-                        {{--        </li>--}}
+                        {{-- user acc name
+                        <li>
+                            <a href="">
+                                <span class="next-text">
+                                    {{ Auth::user()->name }}
+                                </span>
+                            </a>
+                        </li> --}}
 
                     </ul>
 
@@ -101,7 +101,7 @@
 
                 </nav>
             </div>
-            <div class="col-12 col-md-11">
+            <div class="col-12 col-md-11 p-0">
                 <div class="dashboard-content">
 
                     @yield('content')
@@ -110,7 +110,7 @@
         </div>
     </div>
     <script type="text/javascript">
-    $('.livesearch').select2({
+        $('.livesearch').select2({
         placeholder: 'Find stage',
         ajax: {
             url: '/band-find-stage',

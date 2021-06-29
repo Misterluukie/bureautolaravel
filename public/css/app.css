@@ -19965,8 +19965,8 @@ h3 {
 /*  FLEXBOX
 \*----------------------------------------------------------------------------*/
 .is-dashboard .container-fluid:first-of-type, .is-dashboard .container-sm:first-of-type, .is-dashboard .container-md:first-of-type, .is-dashboard .container-lg:first-of-type, .is-dashboard .container-xl:first-of-type {
-  padding-right: 0;
-  padding-left: 0;
+  /* padding-right: 0;
+  padding-left: 0; */
 }
 .is-dashboard .fa-2x {
   font-size: 2em;
