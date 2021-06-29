@@ -9,17 +9,17 @@
             <div class="col-12"><a href="/">Ga terug</a></div>
 
             <div class="col-12">
-                <img src="/uploads/{{ $bands->filename }}" alt="">
+                <img src="/uploads/{{ $projects->filename }}" alt="">
             </div>
         </div>
         <div class="row">
             <div class="col-6">
-                <h5>{{ $bands->name }}</h5>
+                <h5>{{ $projects->name }}</h5>
             </div>
             <div class="col-6">
-                <p>{{ $bands->content }}</p>
-                <p>{{ $bands->location }}</p>
-                <b>{{ $bands->price }}</b>
+                <p>{{ $projects->content }}</p>
+                <p>{{ $projects->location }}</p>
+                <b>{{ $projects->price }}</b>
 
             </div>
 
@@ -81,8 +81,8 @@
                                 </select>
                             </div>
                         </div>
-                        <input type="hidden" name="band_id" value="{{$bands->id}}">
-                        <input type="hidden" name="location" value="{{$bands->location}}">
+                        <input type="hidden" name="band_id" value="{{$projects->id}}">
+                        <input type="hidden" name="location" value="{{$projects->location}}">
                         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>

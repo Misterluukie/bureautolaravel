@@ -76,7 +76,9 @@
         </div>
 
         @foreach ($files as $file)
-            {{$file->name}}
+            
+            <a href="projects/detail/{{$file->id}}">{{$file->name}}</a>
+            
         @endforeach
 
         <a href="login">AdminPanel</a>
