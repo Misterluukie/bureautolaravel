@@ -8,3 +8,15 @@ Voor de Twill installatie kunt u naar de pagina hieronder. Daar staat alles mooi
 
 Cms: https://twill.io/docs/#installation
 
+## Installation
+
+add database
+composer install
+cp example.env .env
+update .env
+
+php artisan key:generate
+php artisan migrate:refresh
+php artisan migrate:refresh --seed <-- dit kan fouten geven. Als het fouten geeft kan je dit skippen.
+\*for editting sass this command
+npm run watch <-- dit hoeft ook niet.
