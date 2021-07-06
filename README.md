@@ -8,7 +8,9 @@ Voor de Twill installatie kunt u naar de pagina hieronder. Daar staat alles mooi
 
 Cms: https://twill.io/docs/#installation
 
-## Installation
+## Installation/Usage
+
+```sh
 
 add database
 composer install
@@ -19,4 +21,6 @@ php artisan key:generate
 php artisan migrate:refresh
 php artisan migrate:refresh --seed <-- dit kan fouten geven. Als het fouten geeft kan je dit skippen.
 \*for editting sass this command
-npm run watch <-- dit hoeft ook niet.
+npm run watch
+
+```
