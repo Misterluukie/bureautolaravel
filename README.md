@@ -9,7 +9,7 @@ update .env
 
 php artisan key:generate
 php artisan migrate:refresh
-php artisan migrate:refresh --seed
+php artisan migrate:refresh --seed <-- dit kan fouten geven. Als het fouten geeft kan je dit skippen.
 \*for editting sass this command
 npm run watch
 
